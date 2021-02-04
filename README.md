@@ -1,4 +1,4 @@
-#Kuburnetes MongoDB Deployment and Service
+# Kuburnetes MongoDB Deployment and Service
 - 1 - Create deployment configuration file. See 'mongodb-deployment.yaml'
 - 2 - Create secret configuration file in order to put MongoDB env variable. (root username and password.)
 - 3 - In order to deploy mongodb-deployment.yaml file first you have to deploy mongodb-secret file because deployment file variable depends to secret file.
@@ -8,7 +8,7 @@
 - 5 - Deploy mongodb-servive file.
     - kubectl apply -f mongodb-service.yaml
 
-#Kubernetes MongoExpress Deployment and Service
+# Kubernetes MongoExpress Deployment and Service
 - 1 - Create deployment configuration file. See 'mongodb-express-deployment.yaml'
 - 2 - Create configmap file in order to put MongoExpress env variable.
 - 3 - In order to deploy mongo-express-deployment file first you have to deploy mongo-configmap file because deployment file variable store in mongo-configmap file.
